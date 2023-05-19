@@ -1,0 +1,94 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.Form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 5px;
+    padding:0px 20px 20px 20px;
+    height: 90%;
+    background-color: white;
+    color: darkblue;
+    border-radius: 15px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: -4px -20px 0px -20px;
+    background-color: orange;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px;
+    padding: 0.5rem;
+    height: 2rem;
+  }
+  
+  form {
+    display: grid;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='number'],
+  input[type='date'],
+  select {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type='checkbox'],
+  input[type='radio'] {
+    margin-right: 5px;
+  }
+  
+  button[type='submit'] {
+    position: relative;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 99%;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #45a049;
+  }
+  .sideShow{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin:5px;
+    padding:0px 20px 20px 20px;
+    height: 90%;
+    background-color: white;
+    color: darkblue;
+    border-radius: 15px;
+
+  }
+  .sideShow>div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 3.03rem;
+    border: 1px solid black;
+  }
+  
+  @media (max-width: 600px) {
+    .App {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  
